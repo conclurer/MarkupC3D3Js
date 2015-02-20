@@ -1,0 +1,19 @@
+<?php
+
+class MarkupC3Js extends WireData implements Module {
+
+    public static function getModuleInfo() {
+        return array(
+            'title' => 'C3.js Chart Library',
+            'version' => 49,
+            'summary' => 'Wrapper for C3.js Chart Library',
+            'href' => 'http://c3js.org/',
+            'requires' => array('MarkupD3Js')
+        );
+    }
+
+    public function __construct() {
+        $this->modules->get('MarkupD3Js');
+    }
+
+} 

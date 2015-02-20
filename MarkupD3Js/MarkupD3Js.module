@@ -1,0 +1,13 @@
+<?php
+class MarkupD3Js extends WireData implements Module {
+
+    public static function getModuleInfo() {
+        return array(
+            'title' => 'D3.js Data-Driven Documents Framework',
+            'version' => 355,
+            'summary' => 'Wrapper for D3.js, which is a JavaScript library for manipulating documents based on data.',
+            'href' => 'http://d3js.org/'
+        );
+    }
+
+} 
