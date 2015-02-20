@@ -1,5 +1,5 @@
 <?php
-class MarkupD3Js extends WireData implements Module {
+class MarkupD3Js extends ModuleJS {
 
     public static function getModuleInfo() {
         return array(

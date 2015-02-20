@@ -1,6 +1,6 @@
 <?php
 
-class MarkupC3Js extends WireData implements Module {
+class MarkupC3Js extends ModuleJS {
 
     public static function getModuleInfo() {
         return array(
